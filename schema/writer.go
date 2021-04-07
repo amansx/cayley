@@ -38,9 +38,9 @@ func (w *writer) writeQuad(s, p, o quad.Value, rev bool) error {
 
 // writeOneValReflect writes a set of quads corresponding to a value. It may omit writing quads if value is zero.
 func (w *writer) writeOneValReflect(id quad.Value, pred quad.Value, rv reflect.Value, rev bool) error {
-	if isZero(rv) {
-		return nil
-	}
+	// if isZero(rv) {
+	// 	return nil
+	// }
 	// write field value and get an ID
 	sid, err := w.writeAsQuads(rv)
 	if err != nil {
