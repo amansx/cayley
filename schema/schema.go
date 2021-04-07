@@ -426,7 +426,8 @@ func isZero(rv reflect.Value) bool {
 		// opaque type - compare directly
 	}
 	// primitive types
-	return rv.Interface() == reflect.Zero(rv.Type()).Interface()
+	// return rv.Interface() == reflect.Zero(rv.Type()).Interface()
+	return false
 }
 
 func (c *Config) idFor(rules fieldRules, rt reflect.Type, rv reflect.Value, pref string) (id quad.Value, err error) {
