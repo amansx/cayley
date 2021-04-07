@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package quad is deprecated. Use github.com/cayleygraph/quad.
+// Package quad is deprecated. Use github.com/amansx/quad.
 package quad
 
 import (
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/quad"
 )
 
 var (
@@ -26,7 +26,7 @@ var (
 
 // Make creates a quad with provided values.
 //
-// Deprecated: use github.com/cayleygraph/quad package instead.
+// Deprecated: use github.com/amansx/quad package instead.
 func Make(subject, predicate, object, label interface{}) Quad {
 	return quad.Make(subject, predicate, object, label)
 }
@@ -40,19 +40,19 @@ func MakeRaw(subject, predicate, object, label string) Quad {
 
 // MakeIRI creates a quad with provided IRI values.
 //
-// Deprecated: use github.com/cayleygraph/quad package instead.
+// Deprecated: use github.com/amansx/quad package instead.
 func MakeIRI(subject, predicate, object, label string) Quad {
 	return quad.MakeIRI(subject, predicate, object, label)
 }
 
 // Our quad struct, used throughout.
 //
-// Deprecated: use github.com/cayleygraph/quad package instead.
+// Deprecated: use github.com/amansx/quad package instead.
 type Quad = quad.Quad
 
 // Direction specifies an edge's type.
 //
-// Deprecated: use github.com/cayleygraph/quad package instead.
+// Deprecated: use github.com/amansx/quad package instead.
 type Direction = quad.Direction
 
 // List of the valid directions of a quad.

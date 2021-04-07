@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/iterator"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/iterator"
+	"github.com/amansx/quad"
 )
 
 const QuadStoreType = "memstore"

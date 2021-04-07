@@ -10,11 +10,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/kv"
-	"github.com/cayleygraph/cayley/graph/kv/btree"
-	"github.com/cayleygraph/cayley/writer"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/kv"
+	"github.com/amansx/cayley/graph/kv/btree"
+	"github.com/amansx/cayley/writer"
+	"github.com/amansx/quad"
 	hkv "github.com/hidal-go/hidalgo/kv"
 	"github.com/stretchr/testify/require"
 )

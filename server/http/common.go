@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/http"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/http"
 )
 
 func jsonResponse(w http.ResponseWriter, code int, err interface{}) {

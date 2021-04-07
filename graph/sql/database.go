@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/log"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/log"
+	"github.com/amansx/quad"
 )
 
 var types = make(map[string]Registration)

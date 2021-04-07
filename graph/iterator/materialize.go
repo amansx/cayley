@@ -19,8 +19,8 @@ package iterator
 import (
 	"context"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
 )
 
 const MaterializeLimit = 1000

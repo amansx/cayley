@@ -12,11 +12,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/path"
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/voc/rdf"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/path"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/voc/rdf"
 )
 
 func iriFlag(s string, err error) (quad.IRI, error) {

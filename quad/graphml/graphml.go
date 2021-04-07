@@ -1,10 +1,10 @@
-// Package graphml is deprecated. Use github.com/cayleygraph/quad/graphml.
+// Package graphml is deprecated. Use github.com/amansx/quad/graphml.
 package graphml
 
 import (
 	"io"
 
-	"github.com/cayleygraph/quad/graphml"
+	"github.com/amansx/quad/graphml"
 )
 
 func NewWriter(w io.Writer) *Writer {

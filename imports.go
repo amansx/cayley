@@ -1,11 +1,11 @@
 package cayley
 
 import (
-	"github.com/cayleygraph/cayley/graph"
-	_ "github.com/cayleygraph/cayley/graph/memstore"
-	"github.com/cayleygraph/cayley/graph/path"
-	_ "github.com/cayleygraph/cayley/writer"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	_ "github.com/amansx/cayley/graph/memstore"
+	"github.com/amansx/cayley/graph/path"
+	_ "github.com/amansx/cayley/writer"
+	"github.com/amansx/quad"
 )
 
 var (

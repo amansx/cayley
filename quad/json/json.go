@@ -1,10 +1,10 @@
-// Package json is deprecated. Use github.com/cayleygraph/quad/json.
+// Package json is deprecated. Use github.com/amansx/quad/json.
 package json
 
 import (
 	"io"
 
-	"github.com/cayleygraph/quad/json"
+	"github.com/amansx/quad/json"
 )
 
 func NewReader(r io.Reader) *Reader {

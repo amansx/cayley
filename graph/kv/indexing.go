@@ -24,12 +24,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/log"
-	"github.com/cayleygraph/cayley/graph/proto"
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/pquads"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/log"
+	"github.com/amansx/cayley/graph/proto"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/pquads"
 
 	"github.com/hidal-go/hidalgo/kv"
 	"github.com/prometheus/client_golang/prometheus"

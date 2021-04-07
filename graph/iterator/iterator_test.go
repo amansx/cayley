@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cayleygraph/cayley/graph"
-	. "github.com/cayleygraph/cayley/graph/iterator"
+	"github.com/amansx/cayley/graph"
+	. "github.com/amansx/cayley/graph/iterator"
 )
 
 // A testing iterator that returns the given values for Next() and Err().

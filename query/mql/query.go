@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cayleygraph/cayley/graph"
+	"github.com/amansx/cayley/graph"
 )
 
 type (

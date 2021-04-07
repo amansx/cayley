@@ -24,7 +24,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cayleygraph/cayley/graph"
+	"github.com/amansx/cayley/graph"
 )
 
 var _ graph.IteratorFuture = &Fixed{}

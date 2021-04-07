@@ -20,13 +20,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cayleygraph/cayley/clog"
+	"github.com/amansx/cayley/clog"
 	"github.com/gobuffalo/packr/v2"
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/internal/gephi"
-	cayleyhttp "github.com/cayleygraph/cayley/server/http"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/internal/gephi"
+	cayleyhttp "github.com/amansx/cayley/server/http"
 )
 
 var static = packr.New("Static", "../../static")

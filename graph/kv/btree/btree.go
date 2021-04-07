@@ -15,7 +15,7 @@
 package btree
 
 import (
-	"github.com/cayleygraph/cayley/graph"
+	"github.com/amansx/cayley/graph"
 	hkv "github.com/hidal-go/hidalgo/kv"
 	"github.com/hidal-go/hidalgo/kv/flat"
 	"github.com/hidal-go/hidalgo/kv/flat/btree"

@@ -1,23 +1,23 @@
 package pquads
 
 import (
-	"github.com/cayleygraph/quad/pquads"
+	"github.com/amansx/quad/pquads"
 )
 import _ "github.com/gogo/protobuf/gogoproto"
 
 // Quad is in internal representation of quad used by Cayley.
 //
-// Deprecated: use github.com/cayleygraph/quad/pquads package instead.
+// Deprecated: use github.com/amansx/quad/pquads package instead.
 type Quad = pquads.Quad
 
 // WireQuad is a quad that allows any value for it's directions.
 //
-// Deprecated: use github.com/cayleygraph/quad/pquads package instead.
+// Deprecated: use github.com/amansx/quad/pquads package instead.
 type WireQuad = pquads.WireQuad
 
 // StrictQuad is a quad as described by RDF spec.
 //
-// Deprecated: use github.com/cayleygraph/quad/pquads package instead.
+// Deprecated: use github.com/amansx/quad/pquads package instead.
 type StrictQuad = pquads.StrictQuad
 
 type StrictQuad_Ref = pquads.StrictQuad_Ref

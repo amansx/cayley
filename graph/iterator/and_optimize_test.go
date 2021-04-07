@@ -20,7 +20,7 @@ package iterator_test
 import (
 	"testing"
 
-	. "github.com/cayleygraph/cayley/graph/iterator"
+	. "github.com/amansx/cayley/graph/iterator"
 )
 
 func TestNullIteratorAnd(t *testing.T) {

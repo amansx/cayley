@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/quad"
 )
 
 // IterateChain is a chain-enabled helper to setup iterator execution.

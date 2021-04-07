@@ -8,11 +8,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
-	graphlog "github.com/cayleygraph/cayley/graph/log"
-	csql "github.com/cayleygraph/cayley/graph/sql"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
+	graphlog "github.com/amansx/cayley/graph/log"
+	csql "github.com/amansx/cayley/graph/sql"
+	"github.com/amansx/quad"
 	sqlite3 "github.com/mattn/go-sqlite3"
 )
 

@@ -28,7 +28,7 @@ RUN packr2
 # Pass a Git short SHA as build information to be used for displaying version
 RUN SHORT_SHA=$(git rev-parse --short=12 HEAD); \
     go build \
-    -ldflags="-linkmode external -extldflags -static -X github.com/cayleygraph/cayley/version.GitHash=$SHORT_SHA" \
+    -ldflags="-linkmode external -extldflags -static -X github.com/amansx/cayley/version.GitHash=$SHORT_SHA" \
     -a \
     -installsuffix cgo \
     -o /fs/bin/cayley \

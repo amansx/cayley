@@ -31,7 +31,7 @@ package pio
 import (
 	"io"
 
-	"github.com/cayleygraph/quad/pquads/pio"
+	"github.com/amansx/quad/pquads/pio"
 )
 
 type Writer = pio.Writer

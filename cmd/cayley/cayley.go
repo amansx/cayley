@@ -25,37 +25,37 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cayleygraph/cayley/cmd/cayley/command"
+	"github.com/amansx/cayley/cmd/cayley/command"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cayleygraph/cayley/clog"
-	_ "github.com/cayleygraph/cayley/clog/glog"
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/version"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/clog"
+	_ "github.com/amansx/cayley/clog/glog"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/version"
+	"github.com/amansx/quad"
 
 	// Load supported backends
-	_ "github.com/cayleygraph/cayley/graph/all"
+	_ "github.com/amansx/cayley/graph/all"
 
 	// Load all supported quad formats.
-	_ "github.com/cayleygraph/quad/dot"
-	_ "github.com/cayleygraph/quad/gml"
-	_ "github.com/cayleygraph/quad/graphml"
-	_ "github.com/cayleygraph/quad/json"
-	_ "github.com/cayleygraph/quad/jsonld"
-	_ "github.com/cayleygraph/quad/nquads"
-	_ "github.com/cayleygraph/quad/pquads"
+	_ "github.com/amansx/quad/dot"
+	_ "github.com/amansx/quad/gml"
+	_ "github.com/amansx/quad/graphml"
+	_ "github.com/amansx/quad/json"
+	_ "github.com/amansx/quad/jsonld"
+	_ "github.com/amansx/quad/nquads"
+	_ "github.com/amansx/quad/pquads"
 
 	// Load writer registry
-	_ "github.com/cayleygraph/cayley/writer"
+	_ "github.com/amansx/cayley/writer"
 
 	// Load supported query languages
-	_ "github.com/cayleygraph/cayley/query/gizmo"
-	_ "github.com/cayleygraph/cayley/query/graphql"
-	_ "github.com/cayleygraph/cayley/query/mql"
-	_ "github.com/cayleygraph/cayley/query/sexp"
+	_ "github.com/amansx/cayley/query/gizmo"
+	_ "github.com/amansx/cayley/query/graphql"
+	_ "github.com/amansx/cayley/query/mql"
+	_ "github.com/amansx/cayley/query/sexp"
 )
 
 var (

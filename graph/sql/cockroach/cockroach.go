@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
-	graphlog "github.com/cayleygraph/cayley/graph/log"
-	csql "github.com/cayleygraph/cayley/graph/sql"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
+	graphlog "github.com/amansx/cayley/graph/log"
+	csql "github.com/amansx/cayley/graph/sql"
 	"github.com/jackc/pgx"
 	_ "github.com/jackc/pgx/stdlib" // registers "pgx" driver
 )

@@ -19,8 +19,8 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/cayleygraph/cayley/graph/iterator"
-	"github.com/cayleygraph/quad"
+	. "github.com/amansx/cayley/graph/iterator"
+	"github.com/amansx/quad"
 	"github.com/stretchr/testify/require"
 )
 

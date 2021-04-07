@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/log"
-	csql "github.com/cayleygraph/cayley/graph/sql"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/log"
+	csql "github.com/amansx/cayley/graph/sql"
+	"github.com/amansx/quad"
 	"github.com/go-sql-driver/mysql"
 )
 

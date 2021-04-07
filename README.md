@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/cayleygraph/cayley">
+  <a href="https://github.com/amansx/cayley">
     <img width="200" src="static/branding/cayley_bottom.png?raw=true" alt="Cayley">
   </a>
 </div>

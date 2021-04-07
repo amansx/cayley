@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/quad"
 	"github.com/stretchr/testify/require"
 )
 

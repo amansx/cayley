@@ -19,8 +19,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cayleygraph/cayley/graph"
-	. "github.com/cayleygraph/cayley/graph/iterator"
+	"github.com/amansx/cayley/graph"
+	. "github.com/amansx/cayley/graph/iterator"
 )
 
 // Make sure that tags work on the And.

@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/proto"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/proto"
 	"github.com/hidal-go/hidalgo/kv"
 )
 

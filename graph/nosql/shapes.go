@@ -7,10 +7,10 @@ import (
 
 	"github.com/hidal-go/hidalgo/legacy/nosql"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/iterator"
-	"github.com/cayleygraph/cayley/graph/shape"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/iterator"
+	"github.com/amansx/cayley/graph/shape"
+	"github.com/amansx/quad"
 )
 
 var _ shape.Optimizer = (*QuadStore)(nil)

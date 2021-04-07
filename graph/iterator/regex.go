@@ -17,8 +17,8 @@ package iterator
 import (
 	"regexp"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/quad"
 )
 
 func newRegex(qs graph.Namer, sub graph.Iterator, re *regexp.Regexp, refs bool) graph.Iterator {

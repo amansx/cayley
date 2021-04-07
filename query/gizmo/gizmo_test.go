@@ -23,15 +23,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/graphtest/testutil"
-	_ "github.com/cayleygraph/cayley/graph/memstore"
-	"github.com/cayleygraph/cayley/query"
-	_ "github.com/cayleygraph/cayley/writer"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/graphtest/testutil"
+	_ "github.com/amansx/cayley/graph/memstore"
+	"github.com/amansx/cayley/query"
+	_ "github.com/amansx/cayley/writer"
+	"github.com/amansx/quad"
 
 	// register global namespace for tests
-	_ "github.com/cayleygraph/quad/voc/rdf"
+	_ "github.com/amansx/quad/voc/rdf"
 )
 
 // This is a simple test graph used for testing

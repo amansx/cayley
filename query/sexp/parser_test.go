@@ -18,13 +18,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/quad"
 
-	"github.com/cayleygraph/cayley/graph/graphtest/testutil"
-	_ "github.com/cayleygraph/cayley/graph/memstore"
-	sh "github.com/cayleygraph/cayley/graph/shape"
-	_ "github.com/cayleygraph/cayley/writer"
+	"github.com/amansx/cayley/graph/graphtest/testutil"
+	_ "github.com/amansx/cayley/graph/memstore"
+	sh "github.com/amansx/cayley/graph/shape"
+	_ "github.com/amansx/cayley/writer"
 	"github.com/stretchr/testify/require"
 )
 

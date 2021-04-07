@@ -6,11 +6,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/memstore"
-	"github.com/cayleygraph/cayley/schema"
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/voc"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/memstore"
+	"github.com/amansx/cayley/schema"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/voc"
 )
 
 func TestSaveNamespaces(t *testing.T) {

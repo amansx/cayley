@@ -22,14 +22,14 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/cayleygraph/cayley/graph/path"
+	. "github.com/amansx/cayley/graph/path"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/graphtest/testutil"
-	"github.com/cayleygraph/cayley/graph/iterator"
-	"github.com/cayleygraph/cayley/graph/shape"
-	_ "github.com/cayleygraph/cayley/writer"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/graphtest/testutil"
+	"github.com/amansx/cayley/graph/iterator"
+	"github.com/amansx/cayley/graph/shape"
+	_ "github.com/amansx/cayley/writer"
+	"github.com/amansx/quad"
 	"github.com/stretchr/testify/require"
 )
 

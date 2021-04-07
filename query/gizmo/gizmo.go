@@ -26,13 +26,13 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/iterator"
-	"github.com/cayleygraph/cayley/query"
-	"github.com/cayleygraph/cayley/schema"
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/jsonld"
-	"github.com/cayleygraph/quad/voc"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/iterator"
+	"github.com/amansx/cayley/query"
+	"github.com/amansx/cayley/schema"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/jsonld"
+	"github.com/amansx/quad/voc"
 )
 
 const Name = "gizmo"

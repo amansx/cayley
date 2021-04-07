@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cayleygraph/cayley/clog"
-	chttp "github.com/cayleygraph/cayley/internal/http"
+	"github.com/amansx/cayley/clog"
+	chttp "github.com/amansx/cayley/internal/http"
 )
 
 func NewHttpCmd() *cobra.Command {

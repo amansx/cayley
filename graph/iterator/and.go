@@ -18,7 +18,7 @@ package iterator
 import (
 	"context"
 
-	"github.com/cayleygraph/cayley/graph"
+	"github.com/amansx/cayley/graph"
 )
 
 var _ graph.IteratorFuture = &And{}

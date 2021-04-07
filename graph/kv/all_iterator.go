@@ -17,9 +17,9 @@ package kv
 import (
 	"context"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/proto"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/proto"
+	"github.com/amansx/quad"
 )
 
 var _ graph.IteratorFuture = &AllIterator{}

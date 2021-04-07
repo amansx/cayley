@@ -24,7 +24,7 @@ Welcome to the Cayley Manual! Cayley is an open-source graph database designed f
 * [Configuration](configuration.md)
 * [Migration](migration.md)
 * [Usage as Container](container.md)
-* [Usage in Kubernetes](https://github.com/cayleygraph/cayley/tree/06f7114d4ad1725d58f16fc5fdc9394f293c3539/docs/k8s.md)
+* [Usage in Kubernetes](https://github.com/amansx/cayley/tree/06f7114d4ad1725d58f16fc5fdc9394f293c3539/docs/k8s.md)
 
 ## Developers
 

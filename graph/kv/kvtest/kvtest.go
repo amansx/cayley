@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/graphtest"
-	"github.com/cayleygraph/cayley/graph/graphtest/testutil"
-	"github.com/cayleygraph/cayley/graph/kv"
-	"github.com/cayleygraph/cayley/graph/shape"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/graphtest"
+	"github.com/amansx/cayley/graph/graphtest/testutil"
+	"github.com/amansx/cayley/graph/kv"
+	"github.com/amansx/cayley/graph/shape"
+	"github.com/amansx/quad"
 	hkv "github.com/hidal-go/hidalgo/kv"
 	"github.com/stretchr/testify/require"
 )

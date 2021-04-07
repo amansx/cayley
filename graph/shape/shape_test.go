@@ -19,10 +19,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/graphmock"
-	. "github.com/cayleygraph/cayley/graph/shape"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/graphmock"
+	. "github.com/amansx/cayley/graph/shape"
+	"github.com/amansx/quad"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

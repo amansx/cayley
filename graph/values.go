@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/quad"
 )
 
 // Ref defines an opaque "quad store reference" type. However the backend wishes

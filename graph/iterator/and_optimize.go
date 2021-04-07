@@ -18,8 +18,8 @@ import (
 	"context"
 	"sort"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
 )
 
 // Perhaps the most tricky file in this entire module. Really a method on the

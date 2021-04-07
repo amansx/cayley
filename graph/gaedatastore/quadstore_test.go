@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/graphtest"
-	"github.com/cayleygraph/cayley/graph/graphtest/testutil"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/graphtest"
+	"github.com/amansx/cayley/graph/graphtest/testutil"
+	"github.com/amansx/quad"
 	"github.com/stretchr/testify/require"
 
 	"google.golang.org/appengine/aetest"

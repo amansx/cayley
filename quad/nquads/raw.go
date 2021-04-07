@@ -15,15 +15,15 @@
 package nquads
 
 import (
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/nquads"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/nquads"
 )
 
 // ParseRaw returns a valid quad.Quad or a non-nil error. ParseRaw does
 // handle comments except where the comment placement does not prevent
 // a complete valid quad.Quad from being defined.
 //
-// Deprecated: use github.com/cayleygraph/quad/nquads package instead.
+// Deprecated: use github.com/amansx/quad/nquads package instead.
 func ParseRaw(statement string) (quad.Quad, error) {
 	return nquads.ParseRaw(statement)
 }

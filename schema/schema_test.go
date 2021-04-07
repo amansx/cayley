@@ -4,10 +4,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cayleygraph/cayley/schema"
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/voc"
-	"github.com/cayleygraph/quad/voc/rdf"
+	"github.com/amansx/cayley/schema"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/voc"
+	"github.com/amansx/quad/voc/rdf"
 )
 
 func init() {

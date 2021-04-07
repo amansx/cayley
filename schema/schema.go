@@ -12,10 +12,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/path"
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/voc/rdf"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/path"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/voc/rdf"
 )
 
 var reflQuadValue = reflect.TypeOf((*quad.Value)(nil)).Elem()

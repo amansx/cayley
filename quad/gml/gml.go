@@ -1,10 +1,10 @@
-// Package gml is deprecated. Use github.com/cayleygraph/quad/gml.
+// Package gml is deprecated. Use github.com/amansx/quad/gml.
 package gml
 
 import (
 	"io"
 
-	"github.com/cayleygraph/quad/gml"
+	"github.com/amansx/quad/gml"
 )
 
 func NewWriter(w io.Writer) *Writer {

@@ -22,7 +22,7 @@ builds:
       - goos: darwin
         goarch: arm64
     ldflags:
-      - -s -w -X github.com/cayleygraph/cayley/version.Version={{.Version}} -X github.com/cayleygraph/cayley/version.GitHash={{.FullCommit}} -X github.com/cayleygraph/cayley/version.BuildDate={{.Date}}
+      - -s -w -X github.com/amansx/cayley/version.Version={{.Version}} -X github.com/amansx/cayley/version.GitHash={{.FullCommit}} -X github.com/amansx/cayley/version.BuildDate={{.Date}}
 archives:
   - format: tar.gz
     format_overrides:

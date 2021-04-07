@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/quad"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/quad"
 )
 
 var _ graph.IteratorFuture = &Resolver{}

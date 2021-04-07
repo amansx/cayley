@@ -1,10 +1,10 @@
-// Package jsonld is deprecated. Use github.com/cayleygraph/quad/jsonld.
+// Package jsonld is deprecated. Use github.com/amansx/quad/jsonld.
 package jsonld
 
 import (
 	"io"
 
-	"github.com/cayleygraph/quad/jsonld"
+	"github.com/amansx/quad/jsonld"
 )
 
 // AutoConvertTypedString allows to convert TypedString values to native
@@ -12,19 +12,19 @@ import (
 //
 // If conversion error occurs, it will preserve original TypedString value.
 //
-// Deprecated: use github.com/cayleygraph/quad/jsonld package instead.
+// Deprecated: use github.com/amansx/quad/jsonld package instead.
 var AutoConvertTypedString = jsonld.AutoConvertTypedString
 
 // NewReader returns quad reader for JSON-LD stream.
 //
-// Deprecated: use github.com/cayleygraph/quad package instead.
+// Deprecated: use github.com/amansx/quad package instead.
 func NewReader(r io.Reader) *Reader {
 	return jsonld.NewReader(r)
 }
 
 // NewReaderFromMap returns quad reader for JSON-LD map object.
 //
-// Deprecated: use github.com/cayleygraph/quad package instead.
+// Deprecated: use github.com/amansx/quad package instead.
 func NewReaderFromMap(o interface{}) *Reader {
 	return jsonld.NewReaderFromMap(o)
 }

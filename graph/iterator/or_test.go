@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cayleygraph/cayley/graph"
-	. "github.com/cayleygraph/cayley/graph/iterator"
+	"github.com/amansx/cayley/graph"
+	. "github.com/amansx/cayley/graph/iterator"
 )
 
 func iterated(it graph.Iterator) []int {

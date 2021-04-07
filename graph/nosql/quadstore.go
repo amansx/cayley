@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cayleygraph/cayley/clog"
-	"github.com/cayleygraph/cayley/graph"
-	"github.com/cayleygraph/cayley/graph/iterator"
-	"github.com/cayleygraph/cayley/internal/lru"
-	"github.com/cayleygraph/quad"
-	"github.com/cayleygraph/quad/pquads"
+	"github.com/amansx/cayley/clog"
+	"github.com/amansx/cayley/graph"
+	"github.com/amansx/cayley/graph/iterator"
+	"github.com/amansx/cayley/internal/lru"
+	"github.com/amansx/quad"
+	"github.com/amansx/quad/pquads"
 	"github.com/hidal-go/hidalgo/legacy/nosql"
 )
 

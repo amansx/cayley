@@ -1,10 +1,10 @@
-// Package dot is deprecated. Use github.com/cayleygraph/quad/dot.
+// Package dot is deprecated. Use github.com/amansx/quad/dot.
 package dot
 
 import (
 	"io"
 
-	"github.com/cayleygraph/quad/dot"
+	"github.com/amansx/quad/dot"
 )
 
 func NewWriter(w io.Writer) *Writer {

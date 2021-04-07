@@ -2,7 +2,7 @@
 
 **Disclaimer:** Cayley's GraphQL implementation is not strictly a GraphQL, but only a query language with the same syntax and mostly the same rules.
 
-We will use [this simple dataset](https://github.com/cayleygraph/cayley/tree/87c9c341848b59924a054ebc2dd0f2bf8c57c6a9/data/testdata.nq) for our examples.
+We will use [this simple dataset](https://github.com/amansx/cayley/tree/87c9c341848b59924a054ebc2dd0f2bf8c57c6a9/data/testdata.nq) for our examples.
 
 Every query is represented by tree-like structure of nested objects and properties, similar to [MQL](mql.md).
 
